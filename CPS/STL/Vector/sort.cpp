@@ -21,4 +21,10 @@ int main()
 
     cout<<"After sorting Decreasing order : ";
     for(auto u:v) cout<<u<<" ";
+    cout<<endl;
+
+    //sorting a specific part
+    sort(v.begin()+1, v.begin()+5);
+    cout<<"After sorting a specific part : ";
+    for(auto u:v) cout<<u<<" ";
 }
