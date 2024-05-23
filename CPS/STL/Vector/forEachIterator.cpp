@@ -18,4 +18,12 @@ int main()
         u+=2;
         cout<<u<<" ";
     }
+    cout<<endl;
+
+    cout<<"Vector : ";
+    //auto detection of data type
+    for(auto u : v)
+    {
+        cout<<u<<" ";
+    }
 }
