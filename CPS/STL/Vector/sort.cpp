@@ -23,6 +23,13 @@ int main()
     for(auto u:v) cout<<u<<" ";
     cout<<endl;
 
+    //another way to sort in decreasing order
+    sort( v.rbegin(), v.rend() );
+
+    cout<<"After sorting Decreasing order : ";
+    for(auto u:v) cout<<u<<" ";
+    cout<<endl;
+
     //sorting a specific part
     sort(v.begin()+1, v.begin()+5);
     cout<<"After sorting a specific part : ";
