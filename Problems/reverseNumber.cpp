@@ -11,8 +11,7 @@ int main()
         int last = n%10;
         n=n/10;
 
-        reverse=reverse*10;
-        reverse=reverse+last;
+        reverse=(reverse*10)+last;
     }
     cout<<reverse;
 }
