@@ -13,7 +13,7 @@ int main()
 
     for(auto u:v)
     {
-        for(auto g:u) cout<<g<<" ";
+        for(auto g:u) cout<<g<<" "; 
         cout<<endl;
     }
 }
