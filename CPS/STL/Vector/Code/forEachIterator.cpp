@@ -21,6 +21,7 @@ int main()
     cout<<endl;
 
     cout<<"Vector : ";
+    
     //auto detection of data type
     for(auto u : v)
     {
