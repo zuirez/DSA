@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    //Creating vectors
+    //Declearation of vectors
     vector<int> v;
     vector<int> v2={3,5,7,9};
     vector<int> v3(10);
