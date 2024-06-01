@@ -8,7 +8,7 @@ int main()
     //sorting
     sort(v.begin(), v.end());
 
-    //function to find unique (distinct) elements
+    //function to find unique elements
     unique(v.begin(), v.end());
 
     //printing the vector
