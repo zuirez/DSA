@@ -9,7 +9,7 @@ int main()
     optimize();
 
     //finding unique values (GIVES GARBAGE)
-    string s="BdaeCcAbA";
+    string s="BdaaaeCcAbA";
     sort(s.begin(), s.end());
     unique(s.begin(), s.end());
     cout<<s<<endl;
